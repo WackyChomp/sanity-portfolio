@@ -1,7 +1,8 @@
 # sanity-portfolio
 
 <!--
-sanity studio
+sanity studio:
+cd sanity-backend
 npm run dev
 
 -->
