@@ -2,7 +2,8 @@
 
 <!--
 sanity studio:
-cd sanity-backend
-npm run dev
+npm install --global sanity@latest
+sanity login
+npm create sanity@latest
 
 -->
