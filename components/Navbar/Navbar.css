@@ -1,0 +1,45 @@
+
+.app__navbar-menu{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+
+.app__navbar-menu svg{
+  color: white;
+}
+
+.app__navbar-menu div{
+  position: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+  padding: 0 10rem;
+
+  width: 70%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+
+.app__navbar-menu div svg{
+  width: 50px;
+  height: 50px;
+  color: orange;
+  margin: 4rem 1rem;
+}
+
+@media screen and (min-width: 1200px){
+  .app__navbar-menu{
+    display: none;
+  }
+}
