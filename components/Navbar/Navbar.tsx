@@ -59,6 +59,7 @@ const Navbar = (props: Props) => {
                     href={link.route} 
                     key={link.label} 
                     onClick={() => setToggle(false)}
+                    className="bg-slate-400 hover:bg-red-400 m-1"
                   >
                     {link.label}
                   </Link>
@@ -68,7 +69,6 @@ const Navbar = (props: Props) => {
           </div>
         )}
       </div>
-
     </nav>
   )
 }

@@ -103,3 +103,38 @@ body,
 }
 
 /* --------------------------------------------------------- */
+
+.app__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-text{
+  font-size: 0.8rem;
+  text-align: left;
+  color:#1e5245;
+  line-height: 2;
+}
+
+.head-text{
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  color: blue;
+  text-transform: capitalize;
+}
+
+.head-text span{
+  color:purple;
+}
+/* .text-head{} */
+/* .text-head{} */
+
+
+.circle{
+  border-radius: 50%;
+  background: lightcoral;
+  height: 200px;
+  width: 200px;
+}
