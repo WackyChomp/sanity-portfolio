@@ -1,25 +1,31 @@
 import Image from 'next/image'
 import React from 'react'
 
+import '@/container/Header/Header.css'
+
 type Props = {}
 
 const Header = (props: Props) => {
   return (
-    <div className='app__header app__flex'>
-      <div className="app__header-badge">
-        <div className="badge-cmp app__flex">
-          <span>**Wave**</span>
-          <div className='ml-5'>
-            <p className='p-text'>Hello, I am</p>
-            <h1 className='head-text'>Markie</h1>
+    <div id='home' className='app__header app__flex'>
+      <div className="app__header-info">
+        
+        <div className="app__header-badge">
+          <div className="badge-cmp app__flex">
+            <span>🫡</span>
+            <div className='ml-5'>
+              <p className='p-text'>Hello, I am</p>
+              <h1 className='head-text'>Markie</h1>
+            </div>
+          </div>
+
+          <div className="tag-cmp app_flex">
+            <p className='p-text'>Coaching</p>
+            <p className='p-text'>Adventurer</p>
+            <p className='p-text'>Researcher</p>
           </div>
         </div>
 
-        <div className="tag-cmp app_flex">
-          <p className='p-text'>Coaching</p>
-          <p className='p-text'>Adventurer</p>
-
-        </div>
       </div>
 
 
@@ -27,12 +33,14 @@ const Header = (props: Props) => {
         <Image 
           src='https://media1.tenor.com/m/lx2WSGRk8bcAAAAC/pulp-fiction-john-travolta.gif'
           alt='emptiness'
-          width={700}
-          height={700}
+          width={600}
+          height={600}
           unoptimized
           className="bg-red-500 p-1 m-2 rounded-lg"
         />
-        <div className="circle">dogs are fun</div>
+        <div className="circle-one"></div>
+        <div className="circle-two"></div>
+        <div className="circle-three"></div>
       </div>
 
       <div className="">

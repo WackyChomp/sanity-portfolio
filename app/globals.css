@@ -132,9 +132,21 @@ body,
 /* .text-head{} */
 
 
-.circle{
+.circle-one{
   border-radius: 50%;
-  background: lightcoral;
+  background: red;
+  height: 200px;
+  width: 200px;
+}
+.circle-two{
+  border-radius: 50%;
+  background: blue;
+  height: 200px;
+  width: 200px;
+}
+.circle-three{
+  border-radius: 50%;
+  background: purple;
   height: 200px;
   width: 200px;
 }
