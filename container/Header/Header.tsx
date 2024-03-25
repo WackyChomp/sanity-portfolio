@@ -21,7 +21,9 @@ const Header = (props: Props) => {
 
           <div className="tag-cmp app_flex">
             <p className='p-text'>Coaching</p>
-            <p className='p-text'>Adventurer</p>
+            <p className='p-text'>Consultant</p>
+            <p className='p-text'>Engineer</p>
+            <p className='p-text'>Field Agent</p>
             <p className='p-text'>Researcher</p>
           </div>
         </div>
@@ -43,9 +45,15 @@ const Header = (props: Props) => {
         <div className="circle-three"></div>
       </div>
 
-      <div className="">
-
+      <div className="app__header-circles">
+        <img src='/next.svg' />
+        <div className="">1</div>
+        <div className="">2</div>
+        <div className="">3</div>
+        <div className="">4</div>
+        <div className="">5</div>
       </div>
+
     </div>
   )
 }
